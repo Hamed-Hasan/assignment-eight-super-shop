@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Blue Shoes",
+    "img": "https://img.freepik.com/free-photo/pair-trainers_144627-3800.jpg?t=st=1648222406~exp=1648223006~hmac=3f4f8a671063c1fcfdb48be82cd890dd5a4411690194abdbac01f53b8f155705&w=740",
+    "price": "640",
+    "category": "Shoes"
+  },
+  {
+    "id": 2,
+    "name": "Women Shoes",
+    "img": "https://img.freepik.com/free-photo/red-woman-shoes_92686-4.jpg?w=740",
+    "price": "930",
+    "category": "Shoes"
+  },
+  {
+    "id": 3,
+    "name": "Fashion shoes and sneakers",
+    "img": "https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?t=st=1648222755~exp=1648223355~hmac=196757f78ee8db17011d48058feb9ff0c13f2a79eb8c9c3033d6672e4fadf4e0&w=740",
+    "price": "900",
+    "category": "Shoes"
+  },
+  {
+    "id": 4,
+    "name": "Sport new lifestyle fashion",
+    "img": "https://img.freepik.com/free-photo/sport-new-lifestyle-fashion-sneakers_1203-6399.jpg?w=740",
+    "price": "1000",
+    "category": "Shoes"
+  },
+  {
+    "id": 5,
+    "name": "Sport shoe mockup isolated",
+    "img": "https://img.freepik.com/free-psd/sport-shoe-mockup-isolated_1310-1628.jpg?t=st=1648222997~exp=1648223597~hmac=674cf725edb6d331d31f7c4419d70bdef02f27924bafb908c51360d79c92ed08&w=740",
+    "price": "1720",
+    "category": "Shoes"
+  },
+  {
+    "id": 6,
+    "name": "Black fashion gumshoes",
+    "img": "https://img.freepik.com/freeL-photo/black-fashion-gumshoes_144627-9657.jpg?t=st=1648223093~exp=1648223693~hmac=69dfd88f2c24c197dc85f39773455c3b08533e474135e359e653309d71bde9ff&w=740",
+    "price": "1900",
+    "category": "Shoes"
+  },
+  {
+    "id": 7,
+    "name": "High heel shoes",
+    "img": "https://img.freepik.com/free-photo/high-heel-shoes_1203-8671.jpg?t=st=1648223188~exp=1648223788~hmac=d13e9f932bb08e582642ea163ba1e83893bd82252c86e37ca436b94cf659024b&w=740",
+    "price": "999",
+    "category": "Women Shoes"
+  },
+  {
+    "id": 8,
+    "name": "Realistic world book ",
+    "img": "https://img.freepik.com/free-vector/realistic-world-book-day-theme_23-2148476893.jpg?t=st=1648223396~exp=1648223996~hmac=c9e6dca1ebf31b643d8fdefff6bae8674b94e05fcac15c0b5a62252e740f6c75&w=740",
+    "price": "570",
+    "category": "Books"
+  },
+  {
+    "id": 9,
+    "name": "Notepad mockup",
+    "img": "https://img.freepik.com/free-psd/notepad-mockup_571711-106.jpg?w=740",
+    "price": "970",
+    "category": "Books"
+  },
+  {
+    "id": 10,
+    "name": "Book and magazine",
+    "img": "https://img.freepik.com/free-psd/notebooks-mockup_571711-165.jpg?w=740",
+    "price": "800",
+    "category": "Books"
+  }
+]
