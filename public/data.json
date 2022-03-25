@@ -15,28 +15,28 @@
   },
   {
     "id": 3,
-    "name": "Fashion shoes and sneakers",
+    "name": "Fashion shoes",
     "img": "https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?t=st=1648222755~exp=1648223355~hmac=196757f78ee8db17011d48058feb9ff0c13f2a79eb8c9c3033d6672e4fadf4e0&w=740",
     "price": "900",
     "category": "Shoes"
   },
   {
     "id": 4,
-    "name": "Sport new lifestyle fashion",
+    "name": "Sport new lifestyle",
     "img": "https://img.freepik.com/free-photo/sport-new-lifestyle-fashion-sneakers_1203-6399.jpg?w=740",
     "price": "1000",
     "category": "Shoes"
   },
   {
     "id": 5,
-    "name": "Sport shoe mockup isolated",
+    "name": "Sport shoe mockup",
     "img": "https://img.freepik.com/free-psd/sport-shoe-mockup-isolated_1310-1628.jpg?t=st=1648222997~exp=1648223597~hmac=674cf725edb6d331d31f7c4419d70bdef02f27924bafb908c51360d79c92ed08&w=740",
     "price": "1720",
     "category": "Shoes"
   },
   {
     "id": 6,
-    "name": "Black fashion gumshoes",
+    "name": "Black fashion",
     "img": "https://img.freepik.com/freeL-photo/black-fashion-gumshoes_144627-9657.jpg?t=st=1648223093~exp=1648223693~hmac=69dfd88f2c24c197dc85f39773455c3b08533e474135e359e653309d71bde9ff&w=740",
     "price": "1900",
     "category": "Shoes"
