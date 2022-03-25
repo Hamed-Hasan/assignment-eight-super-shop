@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import './Product.css';
 
 const Product = ({ product }) => {
@@ -14,7 +16,9 @@ const Product = ({ product }) => {
             <h3>{price}</h3>
             <h4>{name}</h4>
             <h4>{category}</h4>
+            <div className="add-to-cart">
             <button>Add To Cart</button>
+            </div>
             </div>
             
         </div>
