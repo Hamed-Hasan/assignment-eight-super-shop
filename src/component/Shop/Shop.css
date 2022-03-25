@@ -42,8 +42,13 @@
     background-color: #fff;
     border: none;
     height: 50px;
-  
-    cursor: pointer;
+    clip-path: polygon(7% 0, 100% 0, 90% 100%, 0% 100%);    cursor: pointer;
+    padding: 0 40px;
+    font-weight: 700;
+    transition: .3s;
+  }
+  .add-to-cart button:hover{
+      background-color: orange;
   }
   
   .product-info {
@@ -56,6 +61,6 @@
   }
   
   .icon {
-    font-size: 1.5rem;
+    font-size: 20px;
   }
   
