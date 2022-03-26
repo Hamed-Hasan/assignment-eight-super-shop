@@ -1,5 +1,19 @@
 .cart img{
-    width: 100px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    object-fit: cover;
+}
+.delete-icon{
+    font-size: 28px ;
+    color: rgb(95, 95, 95);
+}
+.single-item {
+    background-color: #e2e2e2;
+    padding: 5px 8px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px -2px grey;
+}
+.single-item h3{
+    font-size: 20px;
 }

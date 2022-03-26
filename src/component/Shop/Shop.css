@@ -1,12 +1,23 @@
 .card {
-    background-color: #c4c4c4;
-    height: 570px;
-    width: 100%;
-    padding: 15px;
-    position: relative;
-    justify-self: center;
-    clip-path: polygon(15% 0%, 100% 0, 100% 90%, 85% 100%, 0 100%, 0% 10%);
-  }
+  background-color: #262121;
+  height: 540px;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  justify-self: center;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 2px 11px -1px grey;
+}
+  .cart-items {
+    background: #8080800a;
+    padding: 16px 17px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px grey;
+}
+.cart-items h1{
+  font-size: 25px;
+}
   .store-heading{
     font-family: "Metamorphous", cursive;
     font-weight: 800;
@@ -17,7 +28,7 @@
     height: 320px;
     background-color: #fff;
     padding: 25px;
-    clip-path: polygon(15% 0%, 100% 0, 100% 86%, 85% 100%, 0 100%, 0% 16%);
+
   }
   
   .image-container img {
@@ -59,8 +70,27 @@
     justify-content: space-between;
     text-align: start;
   }
+.pd-info{
+  text-align: left;
+  margin-top: 20px;
+}
   
   .icon {
     font-size: 20px;
   }
-  
+  .select-btn{
+    border: 0;
+    padding: 4px 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid orange;
+    /* clip-path: polygon(0 0, 91% 0, 100% 100%, 10% 100%); */
+    clip-path: polygon(0 0, 94% 0, 100% 100%, 6% 100%);
+    transition: .3s;
+    display: none;
+  }
+  .select-btn:hover{
+    background-color: black;
+    color: white;
+  }
