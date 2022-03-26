@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Let's See (MY AWESOME SUPER SHOP)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

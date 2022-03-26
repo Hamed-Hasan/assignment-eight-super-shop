@@ -1,5 +1,7 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
+import { AiOutlineAppstoreAdd  } from "@react-icons/all-files/ai/AiOutlineAppstoreAdd";
+// import { IoBagRemoveOutline  } from "@react-icons/all-files/io";
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css';
@@ -15,8 +17,13 @@ const Shop = () => {
     }, []);
 
 const handleAddToCart = (item) => {
-const newCart = [...carts, item]
-setCart(newCart)
+if(carts.length <= 3){
+    const newCart = [...carts, item]
+    setCart(newCart)
+}else{
+    console.log('try agian later')
+}
+
 const addBtn = document.getElementsByClassName('select-btn')[0];
 const addBtn2 = document.getElementsByClassName('select-btn')[1];
 addBtn.style.display = 'block'
@@ -28,7 +35,7 @@ const selectItem = (e) => {
     const randomId = (Math.floor(Math.random() * len))
     const luckyNumber = carts[randomId];
     setCart([luckyNumber])
-    console.log(luckyNumber)
+    // console.log(luckyNumber)
 }
 
 const clearData = () => {
@@ -59,8 +66,10 @@ const clearData = () => {
             {
                 carts.map(cart => <Cart cart={cart} key={cart.id} />)
             }
-            <button onClick={() =>selectItem()} className='select-btn mb-4'>Select Items</button>
-            <button onClick={clearData} className='select-btn'>Chose Again</button>
+            <div className='d-flex flex-column'>
+            <button onClick={() =>selectItem()} className='select-btn mb-4'>Select Items <AiOutlineAppstoreAdd/></button>
+            <button onClick={clearData} className='select-btn'>Chose Again </button>
+            </div>
              </div>
             </div>
 
