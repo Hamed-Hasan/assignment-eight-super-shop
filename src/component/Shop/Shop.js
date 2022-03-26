@@ -79,6 +79,9 @@ const selectItem = () => {
     const randomId = (Math.floor(Math.random() * len))
     const luckyNumber = carts[randomId];
     setCart([luckyNumber])
+    if(carts.length > 0){
+        alert('You Have selected One Items')
+    }
 }
 
 // choose again handler 
