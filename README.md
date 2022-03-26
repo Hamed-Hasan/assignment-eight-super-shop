@@ -1,6 +1,6 @@
 # Let's See (MY AWESOME SUPER SHOP)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [My Shopping Website](my-super-shop.netlify.app).
 
 ## Available Scripts
 

@@ -28,7 +28,7 @@ const Shop = () => {
           height: "250px",
           width: "400px",
           overflow: "auto",
-          
+          borderRadias:"50px",
         },
         
       };
