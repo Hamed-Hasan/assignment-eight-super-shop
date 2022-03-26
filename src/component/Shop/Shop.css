@@ -1,3 +1,4 @@
+/* design card  */
 .card {
   background-color: #262121;
   height: 540px;
@@ -8,7 +9,12 @@
   border-radius: 10px;
   color: white;
   box-shadow: 0px 2px 11px -1px grey;
+  transition: .2s;
 }
+.card:hover{
+  transform: translateY(-15px);
+}
+/* design cart items  */
   .cart-items {
     background: #8080800a;
     padding: 16px 17px;
@@ -16,7 +22,7 @@
     box-shadow: 0px 0px 3px 0px grey;
 }
 .cart-items h1{
-  font-size: 25px;
+  font-size: 22px;
 }
   .store-heading{
     font-family: "Metamorphous", cursive;
@@ -62,14 +68,6 @@
       background-color: orange;
   }
   
-  .product-info {
-    margin: 20px 0;
-    height: calc(100% - 410px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: start;
-  }
 .pd-info{
   text-align: left;
   margin-top: 20px;
@@ -78,6 +76,7 @@
   .icon {
     font-size: 20px;
   }
+  /* design select button */
   .select-btn{
     border: 0;
     padding: 4px 12px;
@@ -92,7 +91,36 @@
     width: 180px;
     margin: 0 auto;
   }
+
   .select-btn:hover{
     background-color: black;
     color: white;
   }
+
+  /* using media quaries for responsive  */
+  @media only screen and (max-width:970px) {
+    .select-btn{
+      width: 100%;
+      font-size: 18px;
+    }
+    .cart-items h1{
+      font-size: 11px;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    .select-btn{
+      font-size: 11px;
+    }
+    .cart img{
+      width: 30px;
+      height: 30px;
+  }
+  .single-item h3{
+    font-size: 10px;
+}
+.select-btn{
+  font-size: 6px;
+}
+  }
+
+  

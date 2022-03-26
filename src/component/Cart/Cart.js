@@ -2,7 +2,8 @@ import React from 'react';
 import { AiFillDelete  } from "@react-icons/all-files/ai/AiFillDelete";
 import './Cart.css';
 
-const Cart = ({ cart }) => {
+// sidebar cart component 
+const Cart = ({ cart, removeItem }) => {
     const {img, name} = cart
 
     return (
@@ -10,11 +11,8 @@ const Cart = ({ cart }) => {
         <div className='d-flex flex-column flex-lg-row cart justify-content-around align-items-center my-3 single-item'>
             <img src={img} alt="" />
             <h3>{name} </h3>
-            <div>{{name} && <AiFillDelete className='delete-icon' />}</div>
+            <div>{{name} && <AiFillDelete onClick={() =>removeItem(cart.id)} className='delete-icon' />}</div>
         </div>
-        {/* <div>
-        <button onClick={()=>selectItem(cart)} className='select-btn'>Select Items</button>
-        </div> */}
         </>
     );
 };
