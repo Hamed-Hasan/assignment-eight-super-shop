@@ -1,14 +1,46 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
 import { AiOutlineAppstoreAdd  } from "@react-icons/all-files/ai/AiOutlineAppstoreAdd";
+import Modal from "react-modal";
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import { FcCancel } from 'react-icons/fc';
+import { GrClose } from 'react-icons/gr';
+
 import './Shop.css';
 
+Modal.setAppElement("#root");
 // shop component 
 const Shop = () => {
     const [products, setProduct] = useState([])
     const [carts, setCart] = useState([])
+    const [modal, setModal] = useState(false);
+
+
+    const customStyles = {
+        content: {
+          top: "50%",
+          left: "50%",
+          right: "auto",
+          bottom: "auto",
+          marginRight: "-50%",
+          transform: "translate(-50%, -50%)",
+          height: "300px",
+          width: "600px",
+          overflow: "auto",
+        },
+      };
+
+
+      const toggleModal = () => {
+        setModal(true);
+      };
+    
+      const closeModal = () => {
+        setModal(false);
+      };
+    
+
     useEffect(() => {
         fetch('data.json')
         .then(res => res.json())
@@ -26,7 +58,8 @@ if(carts.length <= 3){
     const newCart = [...carts, item]
     setCart(newCart)
 }else{
-    alert('You cannot select more than four')
+    // alert('')
+    toggleModal()
 }
 // if(carts.find(product => product.id === item.id)){
 //     alert('hi')
@@ -90,6 +123,22 @@ const removeItem = (id) => {
 
             </div>
             </div>
+
+
+            <Modal isOpen={modal} onRequestClose={closeModal} style={customStyles}>
+      
+          
+          <GrClose className='modal-close-button' onClick={closeModal} />
+       
+        
+          <div>
+            
+            <h1 className='display-3 fw-bold text-center mt-2'> You cannot select more than four </h1>
+          </div>
+        
+          
+      </Modal>
+
 
         </div>
     );

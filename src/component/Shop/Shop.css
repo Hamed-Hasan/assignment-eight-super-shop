@@ -91,10 +91,19 @@
     width: 180px;
     margin: 0 auto;
   }
-
+.modal-close-button{
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+}
   .select-btn:hover{
     background-color: black;
     color: white;
+  }
+  .cancel{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
   }
 
   /* using media quaries for responsive  */
