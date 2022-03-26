@@ -25,10 +25,12 @@ const Shop = () => {
           bottom: "auto",
           marginRight: "-50%",
           transform: "translate(-50%, -50%)",
-          height: "300px",
-          width: "600px",
+          height: "250px",
+          width: "400px",
           overflow: "auto",
+          
         },
+        
       };
 
 
@@ -125,7 +127,7 @@ const removeItem = (id) => {
             </div>
 
 
-            <Modal isOpen={modal} onRequestClose={closeModal} style={customStyles}>
+            <Modal  isOpen={modal} onRequestClose={closeModal} style={customStyles}>
       
           
           <GrClose className='modal-close-button' onClick={closeModal} />
@@ -133,7 +135,7 @@ const removeItem = (id) => {
         
           <div>
             
-            <h1 className='display-3 fw-bold text-center mt-2'> You cannot select more than four </h1>
+            <h1 className='display-6 fw-bold text-center mt-4'> You cannot select more than four </h1>
           </div>
         
           
